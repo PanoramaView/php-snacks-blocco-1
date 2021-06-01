@@ -74,6 +74,7 @@ $posts = [
     for ($i = 0; $i < count($posts); $i++) {
         $key = $keyMap[$i];
 
+        echo "<br>";
         echo "SECONDO DUMP";
         var_dump($i, $key);
 
